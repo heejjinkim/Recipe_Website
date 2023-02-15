@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.box{
+	position:absolute;
+    margin:0 auto;
+    top:130px;
+    flex:1;
+}
+
+
+.rightcolumn {
+    float: left;
+    width: 1100px;
+    height:900px;
+}
+
+.PROFILE{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;    
+    margin-top:10px;
+}
+
+.profile{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin:20px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin:auto;
+    margin-top:30px;
+}
+
+.profile img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(50, 50);
+}
+
+#text{
+	text-align : center;
+	margin:auto;
+	padding: 5px;
+}
+
+.card {
+    padding: 10px;    
+    margin-top:10px;
+}
+
+
+.card span{
+	position:relative;
+	left:37%;
+	font-size:22px;
+}
+
+.POSTING_{
+    width: 100%;
+}
+
+.recipe_title:hover {          
+    color: grey;  
+}
+
+.recipe{
+	float:left;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin:1px;
+}
+
+.recipe img{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    transform: translate(50, 50);
+}
+
+.recipe_title{
+	text-decoration:none;  
+    position: relative;
+    top: 250px;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.info {
+  position: relative;
+  background: rgba(0,0,0,0.5);
+  width: 260px; height : 260px; 
+  padding: 25px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+  text-align: center;
+}
+.info > a{
+	text-decoration:none;  
+    position: relative;
+    top: 80px;
+    font-weight: 600;
+    color:white;
+}
+.recipe:hover .info {
+	opacity: 1;
+}
+.info p {
+	color:white;
+	line-height: 150px;
+}
+
+.recipe input{
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+}
+#page_control{
+	width:100%;
+  	font-size:12px;
+  	text-align:center;
+  	height:60px;
+}
+#footer{
+	position:absolute;
+    top:1100px;
+    width:100%;
+  	font-size:12px;
+  	text-align:center;
+  	height:60px;
+}

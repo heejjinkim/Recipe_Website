@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.recipe{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin:15px;
+    float: left;
+    box-shadow:1px 1px 1px 1px rgba(128, 128, 128, 0.8);
+	left: 50%;
+	transform: translateX(-50%);
+	top: 160px;
+}
+
+.recipe img{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    object-fit: cover;
+    transform: translate(50, 50);
+}
+
+.recipe p{
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-weight: 600;
+}
+.writer{
+    color:rgb(164, 164, 164)
+}
+
+.recipe a{
+    cursor:hand;
+    text-decoration-line: none;
+    color:inherit;
+}
+
+#reDraw{
+	position: absolute;
+	left: 410px;
+	top: 500px;
+	padding: 5px 20px;
+	margin: 10px 0;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+#box{
+	position: relative;
+}
+
+#boxTitle{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60%;
+}
+
+#chief{
+	position: absolute;
+	width: 70%;
+	left: 300px;
+	top: 100px;
+}
+
+#category{
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	display: flex;
+	transform: translateX(-50%);
+	width: 400px;
+	height: 150px;
+	border: 2px dashed #C6A5B5;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#category select{
+	width: 110px;
+	text-align: center;
+	margin: 5px 10px;
+	font-size: 17px;
+	height: 30px;
+}
+
+#category input{
+	padding: 5px 20px;
+	margin: 10px 0;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+#container{
+	position:absolute;
+	width: 900px;
+	height: 700px;
+	border: 3px outset #C4BCBF;
+	left: 50%;
+	top: 200px; 
+	transform: translateX(-50%);
+	overflow: hidden;
+}
+
+#bling{
+	position: absolute;
+	top: 70px;
+	width: 500px;
+	left: 220px;
+	height: 550px;
+}
