@@ -1,0 +1,162 @@
+.box{
+    position:absolute;
+    width:inherit;
+    top:170px;
+}
+
+.column{
+    position: relative;
+    width : 100%; height: 340px;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+h2 {
+    position:absolute;
+    width: inherit; height: 40px;
+    margin: 0; padding: 5px 5px 5px 20px;
+    border-bottom: 1px solid gray;
+    font-size : 23px;
+}
+
+#title, #intro {
+	position:absolute;
+    margin: 0; padding: 10px;
+    resize: none;
+    font-size: 15px;
+}
+
+#title{
+    top: 60px; left: 140px;
+}
+#intro {
+    top: 120px; left: 140px;
+}
+#category {
+    position: relative;
+    top: 255px; left: 150px;
+}
+
+#category :hover {
+    cursor:pointer;
+}
+
+select {
+    font-size:16px; 
+    left: -10px;
+}
+
+.text {
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 10px; padding: 0 0 0 20px;
+}
+
+#recipeTitle {
+    position: absolute;
+    top: 55px;
+}
+
+#recipeIntro {
+    position: absolute;
+    top: 110px;
+}
+
+#recipeCategory {
+    position: absolute;
+    top: 280px; left: 20px;
+}
+
+.upload {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+
+
+.postbox2{
+    position:relative;
+    top:10px;
+    width : 100%; height: 550px;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+#ingredien {
+    position:absolute;
+    width: 100%; height: 40px;
+    left: 73px;
+    margin: 0; padding: 5px;
+    font-size : 17px;
+}
+
+#ing {
+	position: absolute;
+    top: 5px; left: 140px;
+    resize: none;
+    margin: 0; padding: 10px;
+    font-size: 15px;
+}
+
+
+.step{
+	position: relative;
+	width: 1000px;
+	height: 270px;
+	left: 140px;
+	top: 50px;
+}
+
+.content {
+    position: relative;
+    resize: none;
+    margin: 0; padding: 10px;
+    font-size: 15px;
+    float: left;
+}
+
+.po {
+	position: absolute;
+	top: 262px; left: 650px;
+}
+
+#recipe {
+    position: absolute;
+    top: 55px; left: 35px;
+    font-size: 17px;
+    margin: 10px; padding: 0 0 0 20px;
+}
+
+#order {
+    font-size: 16px;
+    position: relative;
+	left: 670px;
+    margin: 5px;
+}
+
+#reOrder {
+	font-size: 16px;
+	position: relative;
+	left: 662px;	
+	margin: 5px;
+}
+
+.but {
+	position: relative;
+	top: 30px;
+	left: 400px; width: 300px;
+	display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 16px;
+    margin: 0; padding: 10px;
+}
+
+.preview{
+	position: relative;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	object-fit: cover;
+}

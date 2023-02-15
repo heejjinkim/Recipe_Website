@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.box{
+	position:absolute;
+    width:1100px;
+    height:800px;
+    margin:0 auto;
+    top:130px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 15%;
+    padding-left: 20px;
+    padding-top : 20px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 82%;
+    padding-left: 20px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 10px;    
+    margin-top:10px;
+}
+.card span{
+	font-size:25px;
+}
+#cathdr{
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.CATEGORY{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    max-width: 250px;
+    width: 100%;  
+}
+ul.CATEGORY > li{
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+}
+.CATEGORY > li:before{
+    content: ">>";
+    display: inline-block;
+    vertical-align: 0px;
+    padding: 10px 5px 6px 0px;
+}
+ul.CATEGORY > li:last-child{
+    border-bottom: 0px;
+}
+.card a{
+    cursor:hand;
+    text-decoration-line: none;
+    color:inherit;
+}
+
+.sub_title{
+    border-bottom: 1px solid gray;
+}
+.card form{
+	width:400px;
+    padding-right:30px;
+    padding-left :30px;
+}
+/*비밀번호 변경*/
+.PWD_header{
+    position:relative;
+    top:20px;
+    left:20px;
+    display: table;
+}
+
+.PW__BOX{
+    position:relative;
+    margin:20px 0;
+}
+.PW__BOX > input{
+    background:transparent;
+    border:none;
+    border-bottom: solid 1px black;
+    padding:20px 0px 5px 0px;
+    font-size:14pt;
+    width:100%;
+}
+.PW__BOX >input::placeholder{
+    color:transparent;
+}
+.PW__BOX >input:placeholder-shown + label{
+    color: black;
+    font-size:12pt;
+    top:15px;
+}
+.PW__BOX >input:focus + label, label{
+    color: black;
+    font-size:10pt;
+    pointer-events: none;
+    position: absolute;
+    left:0px;
+    top:0px;
+    transition: all 0.2s ease ;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.PW__BOX > input:focus, input:not(:placeholder-shown){
+    border-bottom: solid 1px;
+    outline:none;
+}
+
+input[type=submit]{
+    background-color: black;
+    border:none;
+    color:white;
+    border-radius: 2px;
+    width:100%;
+    height:35px;
+    font-size: 14pt;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+.column input[type=submit]:hover{
+	background-color: #88604A;  
+}
+
+
+
+
+
